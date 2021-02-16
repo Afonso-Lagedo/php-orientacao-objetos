@@ -8,6 +8,8 @@ class Programador extends Pessoa{//herdando da classe Pessoa
 	{
 		$this->nome = $tmpNome;
 		$this->linguagem = $tmpLinguagem;
+
+		echo"<br>Objeto".__CLASS__."foi instanciado.<br>";
 	}	
 
 }
