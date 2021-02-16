@@ -6,6 +6,7 @@ class Pessoa{ //criando classe
 	//private: acessado apenas dentro da classe 
 	//protected: acessado pela classe e classes que herdam
 	protected $nome;//atributos
+	const ESPECIE = "Humana";//definindo constante
 
 
 	public function __construct($tmpNome)

@@ -9,4 +9,4 @@ $programador = new Programador("Afonso", "PHP");//instância  considerando o con
 
 echo $programador->getNome();
 
-
+echo $programador::ESPECIE;
