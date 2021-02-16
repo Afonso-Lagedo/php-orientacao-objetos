@@ -6,6 +6,11 @@ class Pessoa{ //criando classe
 	//private: acessado apenas dentro da classe 
 	//protected: acessado pela classe e classes que herdam
 	private $nome;//atributos
+
+	public function __construct($tmpNome)
+	{
+		$this->nome = $tmpNome;
+	}
 	
 	public function setNome($novoNome){ //set alteração
 		$this->nome = $novoNome;
