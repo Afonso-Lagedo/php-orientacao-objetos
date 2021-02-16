@@ -2,10 +2,11 @@
 
 require "Pessoa.php";//trazer a classe php   require_once   também   once(ser usado uma ínica vez)
 //pode-se usar o include também
+require "Programador.php";
 
 
-$pessoa = new Pessoa("Afonso");//instância  considerando o construtor
+$programador = new Programador("Afonso", "PHP");//instância  considerando o construtor
 
-echo $pessoa->getNome();
+echo $programador->getNome();
 
 

@@ -5,7 +5,7 @@ class Pessoa{ //criando classe
 	//public: acessado por qualquer um
 	//private: acessado apenas dentro da classe 
 	//protected: acessado pela classe e classes que herdam
-	private $nome;//atributos
+	protected $nome;//atributos
 
 
 	public function __construct($tmpNome)

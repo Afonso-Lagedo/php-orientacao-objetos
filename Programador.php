@@ -10,5 +10,4 @@ class Programador extends Pessoa{//herdando da classe Pessoa
 		$this->linguagem = $tmpLinguagem;
 	}	
 
-
 }
