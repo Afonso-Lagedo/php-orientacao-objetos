@@ -4,9 +4,6 @@ require "Pessoa.php";//trazer a classe php   require_once   também   once(ser u
 //pode-se usar o include também
 
 $uma_pessoa = new Pessoa;//instância 
-$uma_pessoa->nome = "Afonso";
-$uma_pessoa->idade  = "27";
 
-
-$uma_pessoa->falarNome(); // impressão pela chamada do método
-$uma_pessoa->falarIdade();
+$uma_pessoa->setNome("Afonso"); // impressão pela chamada do método
+echo $uma_pessoa->getNome();
