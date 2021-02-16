@@ -7,6 +7,7 @@ class Pessoa{ //criando classe
 	//protected: acessado pela classe e classes que herdam
 	private $nome;//atributos
 
+
 	public function __construct($tmpNome)
 	{
 		$this->nome = $tmpNome;
